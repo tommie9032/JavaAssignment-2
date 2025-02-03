@@ -7,6 +7,18 @@ class ArrayFunctions{
         System.out.println("Array is :" + array);
     }
 
+
+    public void convertArrayList(int[] array){
+        //Method to convert int array to array list
+        ArrayList<Integer> list = new ArrayList<Integer>();
+
+        for(int i = 0;i < array.length ; i++){
+            list.add(array[i]);
+
+        }
+        display(list); //to Display the Array List
+    }
+
     // Method to separate even and odd numbers from an array
     public void oddEven(int[] arr) {
 
